@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<title>HOME</title>
+</head>
+<body>
+<script type="text/javascript">
+	function doSomething(){
+		document.write("This site is not yet available.<br />");
+	}
+	
+	setInterval("doSomething()", 1000);
+
+	function printTime(){
+	var now = new Date();
+	var hours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds();
+	var year = now.getFullYear();
+	var day = now.getDay();
+	var dayWord = new Array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+	var date = now.getDate();
+	var month = now.getMonth();
+	var monthWord = new Array ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+	
+	if(hours>12){
+		hours=hours-12;
+		document.write(dayWord[day] +" " + " " + monthWord[month] + ""  + " " + date + ", "  +  year  + "<br />");
+		document.write(hours + ":" + minutes + ":" + seconds + " PM<br />");
+	}
+	else{
+		document.write(dayWord[day] +" " + " " + monthWord[month] + ""  + " " + date + ", "  +  year  + "<br />");
+		document.write(hours + ":" + minutes + ":" + seconds + " PM<br />");
+	}
+	}
+	setInterval("printTime()", 1000);
+</script>
+</body>
+</html>

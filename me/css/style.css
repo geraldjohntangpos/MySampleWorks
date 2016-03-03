@@ -1,0 +1,171 @@
+#main_frame {
+	width: 100%;
+	cellspacing: 0px;
+	cellpadding: 0px;
+}
+
+body {
+	background-color: skyblue;
+}
+
+#side {
+	width: 10%;
+}
+
+#center {
+	width: 80%;
+}
+
+iframe {
+	border: 0px solid;
+}
+
+#center.header {
+	background-color: skyblue;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.frame_container {
+	background-color: skyblue;
+}
+
+.frame {
+	width: 100%;
+	height: 630px;
+	background-color: skyblue;
+}
+
+.text {
+	height: 45px;
+	width: 100%;
+	color: grey;
+	font-size: 24px;
+	font-family: Tahoma;
+	border-radius: 3px;
+	margin: 3px;
+}
+
+#label {
+	height: 30px;
+	width: 100%;
+	color: grey;
+	font-size: 24px;
+	font-family: Tahoma;
+	margin: 3px;
+}
+
+#drop_td {
+	width: 30%;
+}
+
+#drop {
+	height: 45px;
+	min-width: 90px;
+	width: 100%;
+	color: grey;
+	font-size: 24px;
+	font-family: Tahoma;
+	text-align: center;
+	border-radius: 3px;
+	margin: 3px;
+}
+
+#sub {
+	height: 45px;
+	width: 100%;
+	background-color: lightblue;
+	font-family: Tahoma;
+	font-size: 24px;
+	text-align: center;
+	margin: 3px;
+	border-radius: 6px;
+}
+
+#table_display {
+	width: 100%;
+	height: 31px;
+	cellspacing: 0px;
+	cellpadding: 0px;
+}
+
+#center_text {
+	text-align: center;
+	background-color: skyblue;
+	border: 1px solid;
+	spacing: 0px;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+
+#center_text_td {
+	text-align: center;
+	background-color: lightblue;
+	border: 1px solid;
+	font-family: Tahoma;
+}
+
+#foot {
+	text-align: right;
+	background-color: lightblue;
+	border: 1px solid;
+	font-family: Tahoma;
+	font-weight: bold;
+	padding-right: 12px;
+}
+
+#normal_td {
+	background-color: lightblue;
+	border: 1px solid;
+	spacing: 0px;
+	font-family: Tahoma;
+}
+
+#number {
+	height: 45px;
+	width: 100%;
+	font-family: Tahoma;
+	font-size: 24px;
+	margin: 3px;
+	border-radius: 6px;
+}
+
+li {
+	list-style: none;
+}
+
+li div {
+	height: 30px;
+	width: 90px;
+	background-color: lightblue;
+	font-family: Tahoma;
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+	padding: 9px;
+	padding-bottom: 9px;
+	margin-bottom: 9px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.warning {
+	background-color: orange;
+	font-family: Tahoma;
+	font-size: 31px;
+	padding: 9px;
+	border: 1px solid;
+}
+
+.success {
+	background-color: green;
+	font-family: Tahoma;
+	font-size: 31px;
+	padding: 9px;
+	border: 1px solid;
+}
+
+

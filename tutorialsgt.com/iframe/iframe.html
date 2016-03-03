@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title></title>
+	<style type="text/css">
+		#comment{border: 1px solid;
+				border-radius:3px;
+				width:300px;
+				height:auto;
+				min-height:180px;}
+		#box {border:1px solid;
+				border-radius:3px;
+				width:288px;
+				height:auto;
+				min-height:100px;
+				position:relative;
+				top:5px;
+				left:5px;}
+		#forms 	{border:0px solid;
+				width:300px;
+				position:relative;
+				bottom:-15px;}
+	</style>
+</head>
+<body>
+<div id="comment">
+	<?
+		if(isset($_GET['name']) && isset($_GET['comment'])){
+			$name = $_GET['name'];
+			$comment = $_GET['comment'];
+		}
+		if(!empty($_GET['name']) && !empty($_GET['comment'])){
+			echo "<strong>$name:</strong> $comment";
+		}
+		else{
+			echo "Please fill all the fields.";
+		}
+	?>
+	<div id="box">
+	</div>
+	<form name="commentbox" method="GET" action="iframe.html">
+	<div id="forms">
+		Your name: <input type="text" name="name" />
+		<input type="text" name="comment" />
+		<input type="submit" name="submit" />
+	</div>
+	</form>
+</div>
+</body>
+</html>

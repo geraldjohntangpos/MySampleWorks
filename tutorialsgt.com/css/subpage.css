@@ -1,0 +1,10 @@
+body {background-image:url(../pic/back.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;}
+
+#result {border:0px solid;
+		background-color:white;
+		width:900px;
+		height:600px;
+		position:absolute;
+		left:60px;}
